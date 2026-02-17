@@ -2,7 +2,7 @@ export const clinic = {
   name: "Peluqueria y Estética Noelia Serrano",
   logo: "/images/logo.png",
   tagline: "Tu belleza en las mejores manos de Manzanares",
-  description: "Peluquería y Estética Noelia Serrano es tu centro de referencia en Manzanares, Ciudad Real, donde la peluquería profesional se une al maquillaje experto. Con Noelia y Beatriz al frente, ofrecemos cortes, color, peinados y servicios de maquillaje con un trato cercano y resultados impecables. Valorados con 4.8 estrellas por nuestros clientes, que recorren kilómetros para disfrutar de nuestra atención personalizada.",
+  description: "Peluquería y Estética Noelia Serrano es tu centro de referencia en Manzanares, Ciudad Real, donde la peluquería profesional y el maquillaje se unen en perfecta armonía. Con Noelia y Beatriz, un equipo de profesionales valorado con 4.8 estrellas, ofrecemos servicios de peluquería, maquillaje profesional, tratamientos capilares y estética facial con un trato cercano que enamora. Clientes recorren kilómetros para disfrutar de nuestra rapidez, profesionalidad y ese ambiente donde no dan ganas de irse.",
   colors: {
     primary: "#86a6aa",
     secondary: "#283233",
@@ -79,90 +79,90 @@ export const clinic = {
   },
   services: [
     {
-      id: "corte-peluqueria",
-      name: "Corte y Peinado",
-      description: "Cortes personalizados adaptados a tu estilo y tipo de cabello. Noelia destaca por su rapidez y manejo excepcional de las tijeras, creando looks modernos con técnica profesional. Desde cortes clásicos hasta las últimas tendencias, cada servicio incluye acabado y peinado perfecto.",
+      id: "peluqueria-profesional",
+      name: "Peluquería Profesional",
+      description: "Cortes, peinados y técnicas de peluquería realizadas con una rapidez y manejo de tijeras que te sorprenderá. Noelia domina cada técnica con precisión y agilidad, ofreciendo resultados impecables en tiempo récord. Desde cortes modernos hasta peinados para ocasiones especiales.",
       benefits: [
-        "Técnica profesional de corte rápida y precisa",
-        "Asesoramiento personalizado según tu rostro",
-        "Acabado impecable con productos de calidad"
+        "Rapidez excepcional sin perder calidad",
+        "Técnicas profesionales de corte y estilismo",
+        "Atención personalizada a cada tipo de cabello"
       ],
       icon: "Sparkles"
-    },
-    {
-      id: "coloracion-tinte",
-      name: "Coloración y Tinte",
-      description: "Servicios completos de color: desde mechas y balayage hasta cambios de look radicales. Utilizamos productos de alta calidad que respetan tu cabello mientras consiguen el tono perfecto. Color uniforme, brillante y duradero con técnicas actualizadas.",
-      benefits: [
-        "Coloración personalizada para cada cliente",
-        "Productos profesionales que cuidan tu cabello",
-        "Resultados naturales y luminosos"
-      ],
-      icon: "Flower2"
     },
     {
       id: "maquillaje-profesional",
       name: "Maquillaje Profesional",
-      description: "Beatriz, nuestra maquilladora experta, crea looks perfectos para bodas, eventos y ocasiones especiales. Con paciencia, profesionalidad y una sonrisa constante, diseña maquillajes que realzan tu belleza natural. Desde maquillaje social hasta nupcial, cada trabajo es una obra de arte.",
+      description: "Beatriz es nuestra experta maquilladora, con paciencia infinita y resultados espectaculares para cualquier ocasión. Desde maquillaje de novia hasta looks de fiesta, cada servicio se realiza con productos de alta calidad y técnicas profesionales. Su sonrisa y profesionalidad te harán sentir especial.",
       benefits: [
         "Maquilladora profesional con amplia experiencia",
         "Looks personalizados para cada ocasión",
-        "Productos de alta gama de larga duración"
+        "Atención detallista y ambiente relajado"
       ],
-      icon: "Eye"
-    },
-    {
-      id: "peinados-eventos",
-      name: "Peinados para Eventos",
-      description: "Peinados espectaculares para bodas, comuniones, graduaciones y eventos especiales. Creamos recogidos elegantes, ondas glamurosas y estilos personalizados que aguantan toda la jornada. Perfecto para complementar tu maquillaje de evento.",
-      benefits: [
-        "Peinados duraderos para todo el día",
-        "Estilos adaptados a tu vestimenta y personalidad",
-        "Servicio combinado con maquillaje disponible"
-      ],
-      icon: "Sparkles"
+      icon: "Flower2"
     },
     {
       id: "tratamientos-capilares",
       name: "Tratamientos Capilares",
-      description: "Tratamientos intensivos para reparar, hidratar y nutrir tu cabello. Desde keratina hasta mascarillas profundas, devolvemos la vida a cabellos dañados, secos o maltratados. Productos premium que transforman tu melena.",
+      description: "Devuelve vida, brillo y salud a tu cabello con nuestros tratamientos especializados. Hidratación profunda, reparación de puntas, tratamientos de keratina y cuidados específicos para cada tipo de melena. Productos premium que transforman tu pelo desde la primera sesión.",
       benefits: [
-        "Recuperación visible desde la primera sesión",
-        "Cabello más suave, brillante y manejable",
-        "Tratamientos adaptados a cada tipo de cabello"
+        "Recuperación del brillo y suavidad natural",
+        "Tratamientos adaptados a tu tipo de cabello",
+        "Resultados visibles desde la primera aplicación"
       ],
-      icon: "Heart"
+      icon: "Sparkles"
     },
     {
-      id: "depilacion",
-      name: "Depilación",
-      description: "Servicios de depilación con técnicas profesionales para una piel suave y cuidada. Realizamos depilación de cejas, labio, facial y corporal con productos de calidad que minimizan molestias. Resultados limpios y duraderos.",
+      id: "coloracion-mechas",
+      name: "Coloración y Mechas",
+      description: "Transforma tu look con servicios de coloración, mechas, balayage y técnicas de color actuales. Trabajamos con tintes de alta calidad que respetan tu cabello mientras consiguen el tono perfecto. Asesoramiento personalizado para encontrar el color que mejor te favorece.",
       benefits: [
-        "Técnicas profesionales y delicadas",
-        "Productos que cuidan tu piel",
-        "Resultados limpios y precisos"
+        "Colores vibrantes y duraderos",
+        "Técnicas modernas de mechas y balayage",
+        "Productos que cuidan la salud capilar"
       ],
       icon: "Zap"
     },
     {
+      id: "tratamientos-faciales",
+      name: "Tratamientos Faciales",
+      description: "Cuidados personalizados para tu rostro que aportan luminosidad, hidratación y juventud. Limpieza facial profunda, tratamientos antiedad e hidratantes adaptados a las necesidades específicas de tu piel. Disfruta de un momento de relax mientras mejoras tu aspecto.",
+      benefits: [
+        "Piel más luminosa e hidratada",
+        "Tratamientos adaptados a cada tipo de piel",
+        "Resultados visibles y duraderos"
+      ],
+      icon: "Heart"
+    },
+    {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltado perfecto. Desde manicuras clásicas hasta semipermanentes, tus manos y pies lucirán impecables. Tratamiento relajante que incluye limado, hidratación y esmaltado de larga duración.",
+      description: "Cuidado completo de manos y pies con técnicas profesionales y esmaltes de larga duración. Manicura tradicional, semipermanente, diseños de uñas y tratamientos hidratantes. Tus manos y pies lucirán impecables durante semanas.",
       benefits: [
-        "Esmaltado duradero y sin imperfecciones",
-        "Cuidado integral de uñas y cutículas",
-        "Amplia gama de colores y acabados"
+        "Esmaltes de alta calidad y larga duración",
+        "Diseños personalizados y tendencias actuales",
+        "Cuidado integral de uñas y cutículas"
       ],
       icon: "Hand"
     },
     {
-      id: "cejas-pestanas",
-      name: "Diseño de Cejas y Pestañas",
-      description: "Diseño y perfilado de cejas para enmarcar tu mirada. Incluye depilación, tinte y diseño personalizado según tu rostro. También ofrecemos tratamientos de pestañas para una mirada más intensa y definida.",
+      id: "depilacion",
+      name: "Depilación",
+      description: "Servicios de depilación profesional con técnicas que respetan tu piel. Depilación con cera de diferentes zonas corporales, realizada con productos de calidad que minimizan las molestias y garantizan resultados duraderos.",
       benefits: [
-        "Cejas perfectamente diseñadas y simétricas",
-        "Tinte de larga duración",
-        "Mirada más expresiva y definida"
+        "Piel suave durante semanas",
+        "Técnicas profesionales menos invasivas",
+        "Productos de calidad que cuidan tu piel"
+      ],
+      icon: "Flower2"
+    },
+    {
+      id: "pestanas-cejas",
+      name: "Pestañas y Cejas",
+      description: "Realza tu mirada con nuestros servicios de diseño de cejas, tinte de pestañas y cejas, y tratamientos que aportan definición a tu rostro. Resultados naturales que destacan tu belleza sin necesidad de maquillaje diario.",
+      benefits: [
+        "Mirada más expresiva y definida",
+        "Resultados naturales y favorecedores",
+        "Ahorra tiempo en tu rutina de maquillaje"
       ],
       icon: "Eye"
     }
@@ -171,43 +171,43 @@ export const clinic = {
     {
       step: 1,
       title: "Reserva tu Cita",
-      description: "Llámanos al 664 71 28 89 o escríbenos por WhatsApp. Te atenderemos personalmente para encontrar el mejor momento según tu disponibilidad y el servicio que necesites."
+      description: "Llámanos al 664 71 28 89 o escríbenos por WhatsApp. Te atenderemos personalmente para encontrar el mejor momento para ti y conocer qué servicio necesitas, ya sea peluquería, maquillaje o estética."
     },
     {
       step: 2,
       title: "Asesoramiento Personalizado",
-      description: "En tu visita, Noelia o Beatriz analizarán tus necesidades específicas. Te recomendaremos el mejor tratamiento, corte, color o maquillaje según tu estilo, tipo de cabello o piel, y la ocasión."
+      description: "En tu visita, Noelia o Beatriz te asesorarán sobre el mejor tratamiento, corte, color o maquillaje según tus necesidades y estilo. Escuchamos lo que deseas y te proponemos opciones profesionales adaptadas a ti."
     },
     {
       step: 3,
-      title: "Servicio Profesional",
-      description: "Disfruta de un servicio rápido, profesional y en un ambiente agradable. Utilizamos técnicas avanzadas y productos de calidad premium mientras te sientes completamente a gusto con nuestro equipo."
+      title: "Tratamiento con Maestría",
+      description: "Disfruta de la rapidez y precisión de Noelia con las tijeras o de la paciencia y profesionalidad de Beatriz con el maquillaje. Trabajamos con productos premium y técnicas avanzadas en un ambiente donde te sentirás como en casa."
     },
     {
       step: 4,
-      title: "Resultado Impecable",
-      description: "Sal luciendo espectacular y con ese cambio que buscabas. Te daremos consejos de mantenimiento y estaremos encantadas de verte en tu próxima visita. La satisfacción de nuestras clientas es nuestra mejor carta de presentación."
+      title: "Resultados que Enamoran",
+      description: "Sal de nuestro centro radiante y satisfecha, con resultados que superarán tus expectativas. Nuestras clientas recorren kilómetros para volver, y tú entenderás por qué desde la primera visita."
     }
   ],
   whyUs: [
     {
       title: "Valoradas con 4.8 Estrellas",
-      description: "Nuestras 19 reseñas en Google hablan por sí solas. Las clientas destacan nuestra profesionalidad, rapidez y el ambiente agradable que creamos. Muchas recorren más de 37 kilómetros para visitarnos porque saben que obtendrán resultados excepcionales.",
+      description: "Nuestras 19 reseñas en Google con 4.8 estrellas reflejan la satisfacción de clientas que recorren kilómetros para visitarnos. La rapidez de Noelia, la profesionalidad de Beatriz y nuestro ambiente acogedor nos convierten en referencia en Manzanares.",
       icon: "Sparkles"
     },
     {
-      title: "Equipo Profesional Experto",
-      description: "Noelia destaca por su técnica excepcional y rapidez con las tijeras, mientras que Beatriz es una maquilladora profesional con gran paciencia y resultados impecables. Juntas formamos el tándem perfecto de peluquería y maquillaje en Manzanares.",
+      title: "Equipo Experto y Cercano",
+      description: "Noelia destaca por su rapidez y manejo excepcional con las tijeras, mientras Beatriz es una maquilladora profesional con paciencia infinita. Juntas forman el tándem perfecto de peluquería y maquillaje, siempre con sonrisa y disposición para todo.",
       icon: "Heart"
     },
     {
-      title: "Trato Cercano y Personalizado",
-      description: "No somos solo un salón de belleza, creamos una experiencia donde te sientes como en casa. Nuestras clientas destacan que no dan ganas de irse por lo a gusto que se encuentran. Simpatía, profesionalidad y atención personalizada en cada visita.",
+      title: "Ambiente donde No Dan Ganas de Irse",
+      description: "Nuestras clientas destacan lo a gusto que se encuentran con nosotras. Creamos un espacio acogedor donde te sentirás como en casa, con un trato simpático, agradable y personalizado que hace de cada visita una experiencia única.",
       icon: "Flower2"
     },
     {
-      title: "Servicios Completos de Belleza",
-      description: "Desde cortes y color hasta maquillaje profesional para eventos, ofrecemos una solución integral para tu imagen. Excelente relación calidad-precio con servicio óptimo que garantiza tu satisfacción en cada visita a nuestro centro en Manzanares.",
+      title: "Rapidez sin Perder Calidad",
+      description: "La velocidad y precisión de Noelia con las tijeras es algo que nuestras clientas no han visto en ningún otro sitio. Ofrecemos servicios profesionales en tiempo récord sin renunciar a la excelencia en cada detalle, optimizando tu tiempo sin comprometer resultados.",
       icon: "Zap"
     }
   ],
@@ -265,55 +265,55 @@ export const clinic = {
   ],
   faq: [
     {
-      question: "¿Necesito cita previa para los servicios de peluquería?",
-      answer: "Recomendamos pedir cita previa llamando al 664 71 28 89 o por WhatsApp para garantizar tu horario preferido. En Peluquería y Estética Noelia Serrano trabajamos con cita para ofrecerte una atención personalizada sin esperas. Si tienes un hueco libre, también puedes consultar disponibilidad inmediata."
+      question: "¿Dónde está ubicada Peluquería y Estética Noelia Serrano?",
+      answer: "Estamos en Manzanares, Ciudad Real, un centro de referencia en la zona donde clientas recorren kilómetros para visitarnos. Nuestro equipo de Noelia y Beatriz te espera en un espacio acogedor donde te sentirás como en casa desde el primer momento."
     },
     {
-      question: "¿Ofrecen servicios de maquillaje para bodas y eventos?",
-      answer: "Sí, Beatriz es nuestra maquilladora profesional especializada en eventos especiales, bodas, comuniones y celebraciones. Realiza pruebas de maquillaje previas y trabaja con productos de alta gama para garantizar un look perfecto que dure todo el día. También podemos combinar maquillaje con peinado para un servicio completo."
+      question: "¿Qué servicios ofrecéis en el centro?",
+      answer: "Ofrecemos el tándem perfecto de peluquería y maquillaje profesional. Noelia es experta en cortes, coloración, mechas y tratamientos capilares con una rapidez excepcional. Beatriz es nuestra maquilladora profesional para bodas, eventos y ocasiones especiales. También realizamos tratamientos faciales, manicura, pedicura y servicios de estética completos."
     },
     {
-      question: "¿Qué diferencia a Peluquería y Estética Noelia Serrano de otros salones?",
-      answer: "Nuestro tándem perfecto de peluquería y maquillaje nos hace únicos en Manzanares. Noelia destaca por su rapidez y técnica excepcional con las tijeras, mientras que Beatriz es una maquilladora profesional con gran paciencia y resultados impecables. Nuestras clientas valoran especialmente el trato cercano, la profesionalidad y el ambiente agradable que creamos. Con 4.8 estrellas en Google, muchas recorren kilómetros para visitarnos."
+      question: "¿Cómo puedo reservar una cita?",
+      answer: "Puedes llamarnos directamente al 664 71 28 89 o escribirnos por WhatsApp. Te atenderemos personalmente para encontrar el mejor horario según tu disponibilidad y el servicio que necesites. Recomendamos reservar con antelación, especialmente para servicios de maquillaje y ocasiones especiales."
     },
     {
-      question: "¿Qué servicios de coloración ofrecen?",
-      answer: "Ofrecemos todos los servicios de color: tintes completos, mechas, balayage, babylights, reflejos y correcciones de color. Utilizamos productos profesionales de alta calidad que respetan la salud de tu cabello mientras consiguen el tono deseado. En la consulta previa te asesoraremos sobre el mejor color según tu tono de piel y estilo personal."
+      question: "¿Cuánto tiempo dura un servicio de peluquería?",
+      answer: "Una de nuestras características más valoradas es la rapidez de Noelia sin perder calidad. Un corte puede durar entre 30-45 minutos, mientras que servicios de coloración o mechas requieren entre 1,5 y 3 horas según la técnica. En tu reserva te informaremos del tiempo estimado para tu servicio específico."
     },
     {
-      question: "¿Cuánto tiempo dura un servicio completo de peluquería?",
-      answer: "Depende del servicio: un corte puede llevar entre 30-45 minutos, mientras que un color completo con corte puede necesitar 2-3 horas. Noelia es conocida por su rapidez sin sacrificar calidad. En el momento de reservar tu cita te indicaremos la duración estimada según el servicio que necesites."
+      question: "¿Realizáis maquillaje para bodas y eventos?",
+      answer: "Sí, Beatriz es nuestra maquilladora profesional especializada en novias y eventos especiales. Trabaja con paciencia, profesionalidad y productos de alta calidad para conseguir el look perfecto para tu día especial. Ofrecemos pruebas previas para asegurar que el resultado sea exactamente lo que deseas."
     },
     {
-      question: "¿Realizan tratamientos capilares de reparación?",
-      answer: "Sí, ofrecemos diversos tratamientos capilares para reparar, hidratar y nutrir el cabello dañado. Desde tratamientos de keratina hasta mascarillas intensivas, seleccionamos el producto adecuado según el estado y necesidades de tu cabello. Los tratamientos se pueden combinar con tu servicio de corte o color."
+      question: "¿Qué opinan las clientas de Peluquería y Estética Noelia Serrano?",
+      answer: "Tenemos una valoración de 4.8 estrellas sobre 5 en Google con 19 reseñas. Nuestras clientas destacan la rapidez y manejo excepcional de Noelia con las tijeras, la profesionalidad y sonrisa de Beatriz en maquillaje, el ambiente acogedor y el trato cercano. Muchas recorren kilómetros para visitarnos y repiten encantadas."
     },
     {
-      question: "¿Tienen servicios de manicura y pedicura?",
-      answer: "Sí, en Peluquería y Estética Noelia Serrano ofrecemos servicios completos de manicura y pedicura, incluyendo esmaltado tradicional y semipermanente. Cuidamos tus manos y pies con productos de calidad y técnicas profesionales para resultados duraderos y perfectos."
+      question: "¿Qué productos utilizáis en los tratamientos?",
+      answer: "Trabajamos exclusivamente con productos profesionales de alta calidad tanto en peluquería como en estética y maquillaje. Utilizamos tintes que respetan el cabello, cosméticos de primeras marcas y productos específicos para cada tipo de piel y cabello, garantizando resultados óptimos y duraderos."
     },
     {
-      question: "¿Dónde están ubicados en Manzanares?",
-      answer: "Estamos ubicados en Manzanares, Ciudad Real. Para conocer nuestra dirección exacta y cómo llegar, puedes llamarnos al 664 71 28 89. Nuestras clientas destacan que merece la pena el desplazamiento por la calidad de nuestros servicios y el trato personalizado que ofrecemos."
+      question: "¿Ofrecéis buenos precios?",
+      answer: "Nuestras clientas destacan en sus reseñas la excelente relación calidad-precio de nuestros servicios. En Peluquería y Estética Noelia Serrano encontrarás tarifas competitivas sin renunciar a la profesionalidad, productos premium y ese trato personalizado que nos caracteriza. Consulta precios específicos al reservar tu cita."
     }
   ],
   seo: {
     titleTemplate: "%s | Peluqueria y Estética Noelia Serrano",
     defaultTitle: "Peluquería y Estética Noelia Serrano | Manzanares",
-    defaultDescription: "Peluquería y maquillaje profesional en Manzanares. Corte, color, peinados y maquillaje para eventos. Valorados 4.8★ en Google. ¡Pide cita: 664 71 28 89!",
+    defaultDescription: "Peluquería y maquillaje profesional en Manzanares. Equipo experto valorado 4.8★. Cortes, color, tratamientos y maquillaje para eventos. ☎️ 664 71 28 89",
     keywords: [
       "peluquería Manzanares",
-      "Peluqueria y Estética Noelia Serrano",
       "maquillaje profesional Manzanares",
+      "Peluqueria y Estética Noelia Serrano",
       "peluquería Ciudad Real",
-      "corte de pelo Manzanares",
       "maquilladora Manzanares",
-      "coloración cabello Manzanares",
-      "peinados para bodas Manzanares",
-      "manicura Manzanares",
       "tratamientos capilares Manzanares",
-      "salón de belleza Manzanares",
-      "estética Manzanares Ciudad Real"
+      "coloración y mechas Manzanares",
+      "maquillaje novias Manzanares",
+      "estética Manzanares",
+      "salón belleza Manzanares",
+      "manicura pedicura Manzanares",
+      "peluquería profesional Ciudad Real"
     ],
     ogImage: "/og-image.jpg"
   },
@@ -327,11 +327,11 @@ export const clinic = {
     "Belleza",
     "en Manzanares"
   ],
-  heroDescription: "En Peluquería y Estética Noelia Serrano combinamos la experiencia de una peluquera experta con la precisión de una maquilladora profesional. Ubicados en Manzanares, ofrecemos servicios de peluquería completos y maquillaje para cualquier ocasión, con rapidez, profesionalidad y ese toque personal que nos hace únicos.",
+  heroDescription: "En Peluquería y Estética Noelia Serrano combinamos la excelencia en peluquería con servicios de maquillaje profesional y estética. Ubicados en Manzanares, nuestro equipo de expertas te ofrece tratamientos personalizados con la rapidez y precisión que nos caracteriza, en un ambiente donde te sentirás como en casa.",
   specialty: "Peluquería y Maquillaje",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para lucir espectacular?",
-  ctaDescription: "Reserva tu cita en Peluquería y Estética Noelia Serrano y descubre por qué nuestras clientas recorren kilómetros para visitarnos. Un equipo profesional te espera en Manzanares.",
+  ctaHeadline: "¿Lista para transformar tu look con profesionales de confianza?",
+  ctaDescription: "Reserva tu cita en Peluquería y Estética Noelia Serrano y descubre por qué nuestras clientas recorren kilómetros para visitarnos. Te esperamos con una sonrisa y la mejor atención.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
