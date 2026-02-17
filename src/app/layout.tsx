@@ -69,23 +69,12 @@ export default function RootLayout({
           }}
         />
       
-        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="http://localhost:3000";window.__PROJECT_ID="peluqueria-y-estetica-noelia";` }} />
+        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="https://automatizacion-webs.vercel.app";window.__PROJECT_ID="peluqueria-y-estetica-noelia";` }} />
 
         <script
-          src="http://localhost:3000/widget.js"
+          src="https://automatizacion-webs.vercel.app/widget.js"
           data-project-name="Peluqueria y Estética Noelia Serrano"
-          data-api-url="http://localhost:3000"
-          data-project-id="peluqueria-y-estetica-noelia"
-          data-primary-color="#86a6aa"
-          defer
-        ></script>
-      
-        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="http://localhost:3000";window.__PROJECT_ID="peluqueria-y-estetica-noelia";` }} />
-
-        <script
-          src="http://localhost:3000/widget.js"
-          data-project-name="Peluqueria y Estética Noelia Serrano"
-          data-api-url="http://localhost:3000"
+          data-api-url="https://automatizacion-webs.vercel.app"
           data-project-id="peluqueria-y-estetica-noelia"
           data-primary-color="#86a6aa"
           defer
@@ -100,20 +89,7 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: `
           (function(){
             var sid=Math.random().toString(36).slice(2);
-            var api="http://localhost:3000/api/widget/track";
-            var pid="peluqueria-y-estetica-noelia";
-            function t(e){fetch(api,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({projectId:pid,event:e,sessionId:sid}),keepalive:true}).catch(function(){});}
-            t("page_view");
-            var scrolled=false;
-            window.addEventListener("scroll",function(){if(!scrolled&&window.scrollY/(document.body.scrollHeight-window.innerHeight)>0.5){scrolled=true;t("scroll_50");}});
-            document.addEventListener("click",function(e){if(e.target.closest("a[href^='tel:'],a[href^='mailto:'],button")){t("cta_click");}});
-          })();
-        ` }} />
-      
-        <script dangerouslySetInnerHTML={{ __html: `
-          (function(){
-            var sid=Math.random().toString(36).slice(2);
-            var api="http://localhost:3000/api/widget/track";
+            var api="https://automatizacion-webs.vercel.app/api/widget/track";
             var pid="peluqueria-y-estetica-noelia";
             function t(e){fetch(api,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({projectId:pid,event:e,sessionId:sid}),keepalive:true}).catch(function(){});}
             t("page_view");
